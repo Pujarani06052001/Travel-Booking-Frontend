@@ -1,4 +1,3 @@
-* Global Styles */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -7,7 +6,6 @@ body {
   background-color: #f4f6f9;
 }
 
-/* Navbar Styles */
 .navbar {
   background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradient background */
   padding: 20px 40px;
@@ -56,8 +54,8 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #2980b9; /* Hover effect */
-  transform: scale(1.1); /* Slight scaling on hover */
+  background-color: #2980b9;
+  transform: scale(1.1); 
 }
 
 .navbar a:hover::after {
