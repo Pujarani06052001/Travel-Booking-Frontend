@@ -1,0 +1,63 @@
+.package-list {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.package-list h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.package-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.package-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.package-card h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.package-card p {
+  font-size: 1.1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.package-card .price {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.package-card .max-travelers {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.package-card .package-title {
+  font-size: 1.2em;
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

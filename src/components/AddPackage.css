@@ -1,0 +1,105 @@
+/* AddPackage.css */
+
+/* General styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form styling */
+.form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 28px;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #2980b9;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2980b9;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #3498db;
+}
+
+/* Table styling */
+.table-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  font-size: 24px;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.packages-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.packages-table th,
+.packages-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.packages-table th {
+  background-color: #34495e;
+  color: white;
+  font-size: 18px;
+}
+
+.packages-table td {
+  background-color: #ffffff;
+}
+
+.packages-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.packages-table tr:hover {
+  background-color: #f1f1f1;
+}
